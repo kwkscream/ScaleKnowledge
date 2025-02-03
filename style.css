@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(250, 250, 250, 1);
+  padding: 35px 32px;
+  border-radius: 35px;
+  margin-top: 13px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav__links li {
+  display: inline-flex;
+}
+
+.nav__links li a {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(10, 10, 10, 1);
+}
+
+.nav__btn a {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.4px;
+  letter-spacing: 0.4px;
+  color: rgba(250, 249, 247, 1);
+  text-transform: uppercase;
+
+  background: rgba(10, 10, 10, 1);
+
+  padding: 16px 32px;
+  border-radius: 32px;
+}
+
+.nav__btn a:hover {
+  opacity: 0.9;
+}
+
+.hero__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
+}
+
+.hero__inner .hero__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 45px;
+}
+
+.hero__inner .hero__images .hero1-image {
+  width: 400px;
+  height: 280px;
+}
+
+.hero__inner .hero__images .hero2-image {
+  width: 320px;
+  height: 400px;
+}
+
+/* .hero__inner .hero__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.hero__info h1 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 142px;
+  line-height: 160px;
+  color: rgba(10, 10, 10, 1);
+  margin-bottom: 57px;
+}
+
+.hero__info p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(10, 10, 10, 1);
+  margin-bottom: 47px;
+}
+
+.hero__info a {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: rgba(10, 10, 10, 1);
+
+  background: rgba(198, 245, 114, 1);
+  padding: 16px 64px;
+  border-radius: 40px;
+}
+
+.hero__info a:hover {
+  opacity: 0.9;
+}
