@@ -137,3 +137,32 @@ a {
 .hero__info a:hover {
   opacity: 0.9;
 }
+
+.small-info {
+  background: black;
+}
+
+.small-info__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 140px 0;
+}
+
+.small-info__inner h2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #faf9f7;
+  margin-bottom: 33px;
+}
+
+.small-info__inner p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15.6px;
+  color: #504f4f;
+}
