@@ -316,6 +316,7 @@ a {
   background-color: black;
   padding-top: 190px;
   padding-bottom: 96px;
+  height: 2330px;
 }
 
 .bottom__inner {
@@ -352,6 +353,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 12px;
+  margin-bottom: 96px;
 }
 
 .bottom .cards .card {
@@ -393,4 +395,212 @@ a {
 
 .bottom .cards .green-card {
   background: #dbfaa8;
+}
+
+.input-block {
+  width: 1080px;
+  height: 1190px;
+  position: relative;
+}
+
+.input-image {
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+.input-image img {
+  width: 350px;
+  height: 460px;
+  float: right;
+  border-radius: 12px;
+}
+
+.input-form {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 840px;
+  height: 852px;
+  background: #fbf19b;
+  border-radius: 24px;
+  padding-top: 90px;
+  padding-left: 96px;
+  padding-bottom: 110px;
+
+  position: absolute;
+  bottom: 120px;
+  left: 90px;
+}
+
+.input-form .input-text {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.input-form .input-text h2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 52.8px;
+  color: #0a0a0a;
+  margin-bottom: 28px;
+}
+
+.input-form .input-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0a0a0a;
+  margin-bottom: 60px;
+}
+
+.input-form .inputs {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.input-form .inputs {
+  gap: 40px;
+}
+
+.input-form .inputs input {
+  font-family: "Intern";
+  width: 480px;
+  border: none;
+  border-bottom: 2px solid black;
+  background: #fbf19b;
+  outline: none;
+  font-size: 24px;
+  padding: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form .checkbox {
+  margin-bottom: 36px;
+}
+
+.form input[type="checkbox"] {
+  display: none;
+}
+
+.form label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #0a0a0a;
+  margin-top: 55px;
+}
+
+.form label a {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #0a0a0a;
+  margin-left: 5px;
+}
+
+.form label::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.form input[type="checkbox"]:checked + label::before {
+  background: #333;
+  border-color: #333;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+}
+
+.form .input-btn a {
+  background: black;
+  color: white;
+  padding: 16px 72px;
+  border-radius: 40px;
+}
+
+.form .input-btn a:hover {
+  opacity: 0.9;
+}
+
+.form .input-btn a {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.footer {
+  background: #dbfaa8;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 28px;
+  height: 185px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  margin-bottom: 13px;
+}
+
+.footer__inner .underscore-line {
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 12px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-text ul {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+.footer-text ul li {
+  display: inline;
+}
+
+.footer-text ul li a {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #0a0a0a;
 }
